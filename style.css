@@ -48,6 +48,137 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Your CSS Below **/
 
+body {
+  background-color: var(--clr-stone100);
+  font-family: var(--fs-base);
+  font-size: var(--font-paragraph);
+  color: var(--clr-stone600);
+}
+
+.page {
+  padding: 80px 0;
+}
+
+.recipe-card {
+  width: 736px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 24px;
+  padding: 40px;
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.recipe-intro {
+  margin-bottom: 32px;
+}
+
+.recipe-intro h1 {
+  font-family: var(--fs-accent);
+  font-size: 40px;
+  font-weight: var(--fw-regular);
+  line-height: 1;
+  color: var(--clr-stone900);
+  margin-bottom: 24px;
+}
+
+.recipe-intro p {
+  line-height: 1.6;
+}
+
+.preparation-time {
+  background-color: var(--clr-rose50);
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 32px;
+}
+
+.preparation-time h2 {
+  font-family: var(--fs-base);
+  font-size: 20px;
+  font-weight: var(--fw-bold);
+  color: var(--clr-rose800);
+  margin-bottom: 16px;
+}
+
+.ingredients,
+.instructions,
+.nutrition {
+  margin: 32px 0;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+  font-family: var(--fs-accent);
+  font-size: var(--font-sub-header);
+  font-weight: var(--fw-regular);
+  color: var(--clr-brown800);
+  margin-bottom: 20px;
+}
+
+ul,
+ol {
+  padding-left: 24px;
+}
+
+li {
+  padding-left: 16px;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+ul li::marker {
+  color: var(--clr-brown800);
+}
+
+.preparation-time ul li::marker {
+  color: var(--clr-rose800);
+}
+
+ol li::marker {
+  color: var(--clr-brown800);
+  font-weight: var(--fw-black);
+}
+
+strong {
+  font-weight: var(--fw-black);
+  color: var(--clr-stone600);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--clr-stone150);
+}
+
+.nutrition p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition td {
+  padding: 12px 32px;
+  border-bottom: 1px solid var(--clr-stone150);
+}
+
+.nutrition tr:last-child td {
+  border-bottom: none;
+}
+
+.nutrition td:last-child {
+  color: var(--clr-brown800);
+  font-weight: var(--fw-black);
+}
+
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
